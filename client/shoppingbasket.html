@@ -1,0 +1,58 @@
+<!doctype html>
+
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+        <title>Sogyo Adventure</title>
+        <meta name="description" content="The ticket shop for Sogyo employees">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/main.css">
+        <link rel="stylesheet" href="style/shoppingbasket.css">
+    </head>
+
+    <body>
+
+        <header id="logo-header">
+            <img src="img/logo_sogyo_rgb_199x200-1.jpg">
+        </header>
+        <header id="mainheader">
+            Sogyo Adventure
+        </header>
+        <nav>
+            <a class="nav" id="home" href="index.html">
+                Home
+            </a>
+            |
+            <a class="nav" id="map" href="map.html">
+                Discover
+            </a>
+            |
+            <a class="nav" id="shoppingbasket" href="shoppingbasket.html">
+                Shopping basket <div class="badge">0</div>
+            </a>
+            |
+            <a class="nav" id="myorders" href="orders.html">
+                My orders
+            </a>
+            |
+            <a class="nav" id="admin" href="admin.html">
+                Admin
+            </a>
+        </nav>
+
+        <main>
+            <button id="finalizepaymentbutton">Pay now</button>
+        </main>
+
+        <template id="ticket">
+            <article>
+                <div>Parkname: </div>
+                <div>Adults: </div>
+                <div>Kids: </div>
+                <button>Cancel order</button>
+            </article>
+        </template>
+	  <script src="src/shoppingbasket.js"></script>
+    </body>
+</html>

@@ -1,0 +1,18 @@
+#discoverablemap {
+    box-sizing: border-box;
+	height: 100vh;
+    width: 100vw;
+    background-color: brown;
+	grid-area: main;
+	overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
